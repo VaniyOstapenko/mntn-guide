@@ -1,0 +1,19 @@
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 1400px;
+  margin: 64px auto;
+  .title h1 {
+    font: 600 32px "Montserrat";
+    color: white;
+  }
+  .paragraph {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    p {
+      font: 400 20px "Montserrat";
+      color: white;
+    }
+  }
+}
