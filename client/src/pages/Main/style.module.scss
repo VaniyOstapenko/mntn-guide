@@ -12,7 +12,7 @@
   margin: 55px 55px;
   .follow {
     writing-mode: vertical-lr;
-    font: 700 18ox "Montserrat";
+    font: 700 18px "Montserrat";
     color: white;
   }
 
@@ -71,6 +71,84 @@
       width: 16px;
       height: 24px;
       mix-blend-mode: lighten;
+    }
+  }
+}
+
+@media (max-width: 600px) and (min-width: 300px) and (max-height: 900px) and (min-height: 600px) {
+  .main {
+    display: flex;
+    position: relative;
+    margin: 100px auto;
+    width: 950px;
+  }
+  .contacts {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    .follow {
+      writing-mode: vertical-lr;
+      font: 500 20px "Montserrat";
+      color: white;
+      margin-top: 13px;
+    }
+
+    .imgInst {
+      background-image: url(../../assets/img2.png);
+      background-size: cover;
+      background-repeat: no-repeat;
+      width: 18px;
+      height: 18px;
+    }
+    .imgTwit {
+      background-image: url(../../assets/img3.png);
+      background-size: cover;
+      background-repeat: no-repeat;
+      width: 18px;
+      height: 18px;
+    }
+  }
+
+  .info {
+    margin: 70px auto;
+    width: 500px;
+    .guide {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      .hr {
+        width: 50px;
+        height: 2.4px;
+        background: #fbd784;
+      }
+      .paragraphGuide {
+        font: 500 25px "Montserrat";
+        color: #fbd784;
+        text-transform: uppercase;
+      }
+    }
+
+    .mainInfo {
+      font: 300 40px "Montserrat";
+      color: white;
+      text-shadow: 1px 1px white;
+    }
+
+    .scroll {
+      display: flex;
+      gap: 5px;
+      .scrollDown {
+        font: 400 20px "Montserrat";
+        color: white;
+      }
+      .scrollArrow {
+        background-image: url(../../assets//img4.svg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 16px;
+        height: 25px;
+        mix-blend-mode: lighten;
+      }
     }
   }
 }
