@@ -18,14 +18,14 @@
   }
 }
 
-@media (max-width: 600px) and (min-width: 300px) and (max-height: 900px) and (min-height: 600px) {
+@media (max-width: 480px) {
   .wrapper {
     display: flex;
     justify-content: space-between;
-    width: 600px;
-    margin: 40px 0 0 120px;
+    width: 400px;
+    margin: 40px 0 0 90px;
     .title h1 {
-      font: 500 30px "Montserrat";
+      font: 500 20px "Montserrat";
       color: white;
     }
     .paragraph {
@@ -33,7 +33,7 @@
       justify-content: space-between;
       gap: 20px;
       p {
-        font: 400 20px "Montserrat";
+        font: 300 10px "Montserrat";
         color: white;
       }
     }
