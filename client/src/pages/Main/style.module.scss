@@ -75,12 +75,12 @@
   }
 }
 
-@media (max-width: 600px) and (min-width: 300px) and (max-height: 900px) and (min-height: 600px) {
+@media (max-width: 480px) {
   .main {
     display: flex;
     position: relative;
     margin: 100px auto;
-    width: 950px;
+    width: 1000px;
   }
   .contacts {
     position: absolute;
