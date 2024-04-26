@@ -21,19 +21,17 @@
 @media (max-width: 480px) {
   .wrapper {
     display: flex;
-    justify-content: space-between;
-    width: 600px;
-    margin: 40px 0 0 90px;
+    align-items: center;
+    width: 300px;
+    margin: 30px 0 0 35px;
     .title h1 {
-      font: 500 20px "Montserrat";
+      font: 500 15px "Montserrat";
       color: white;
     }
     .paragraph {
-      display: flex;
-      justify-content: space-between;
-      gap: 20px;
+      gap: 15px;
       p {
-        font: 300 20px "Montserrat";
+        font: 300 10px "Montserrat";
         color: white;
       }
     }

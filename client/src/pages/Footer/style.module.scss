@@ -51,48 +51,48 @@
   .footer {
     display: flex;
     justify-content: space-between;
-    width: 700px;
+    width: 300px;
     margin: 150px 0 150px 50px;
     .firstParagraphs {
-      width: 300px;
+      width: 140px;
       .mntn {
-        font: 500 25px "Montserrat";
+        font: 500 15px "Montserrat";
         color: white;
       }
       .getOutThere {
-        font: 400 15px "Montserrat";
+        font: 400 10px "Montserrat";
         color: white;
-        margin-top: 15px;
+        margin-top: 29px;
       }
       .copyright {
-        font: 500 18px "Montserrat";
+        font: 500 10px "Montserrat";
         color: rgb(99, 99, 99);
-        margin-top: 87px;
+        margin-top: 28px;
       }
     }
     .secondParagraphs {
       display: flex;
       flex-direction: column;
-      gap: 15px;
+      gap: 10px;
       .moreOnTheBlog {
-        font: 400 18px "Montserrat";
+        font: 400 15px "Montserrat";
         color: #fbd784;
       }
       p {
-        font: 350 18px "Montserrat";
+        font: 350 10px "Montserrat";
         color: white;
       }
     }
     .thirdParagraphs {
       display: flex;
       flex-direction: column;
-      gap: 15px;
+      gap: 10px;
       .moreOnMNTN {
-        font: 350 18px "Montserrat";
+        font: 350 15px "Montserrat";
         color: #fbd784;
       }
       p {
-        font: 400 18px "Montserrat";
+        font: 400 10px "Montserrat";
         color: white;
       }
     }

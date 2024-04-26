@@ -79,74 +79,75 @@
   .main {
     display: flex;
     position: relative;
-    margin: 100px auto;
-    width: 1000px;
+    margin: 90px auto;
+    width: 500px;
   }
   .contacts {
     position: absolute;
     display: flex;
     align-items: center;
+    margin-left: 35px;
+    gap: 10px;
     .follow {
       writing-mode: vertical-lr;
-      font: 500 20px "Montserrat";
+      font: 500 10px "Montserrat";
       color: white;
-      margin-top: 13px;
     }
 
     .imgInst {
       background-image: url(../../assets/img2.png);
       background-size: cover;
       background-repeat: no-repeat;
-      width: 18px;
-      height: 18px;
+      width: 10px;
+      height: 10px;
     }
     .imgTwit {
       background-image: url(../../assets/img3.png);
       background-size: cover;
       background-repeat: no-repeat;
-      width: 18px;
-      height: 18px;
+      width: 15px;
+      height: 12px;
     }
   }
 
   .info {
-    margin: 70px auto;
-    width: 500px;
+    margin: 70px 0 0 100px;
+    width: 250px;
     .guide {
       display: flex;
       align-items: center;
-      gap: 10px;
+      gap: 5px;
       .hr {
-        width: 50px;
-        height: 2.4px;
+        width: 20px;
+        height: 2.3px;
         background: #fbd784;
       }
       .paragraphGuide {
-        font: 500 25px "Montserrat";
+        font: 500 10px "Montserrat";
         color: #fbd784;
         text-transform: uppercase;
       }
     }
 
     .mainInfo {
-      font: 300 40px "Montserrat";
+      font: 300 15px "Montserrat";
       color: white;
-      text-shadow: 1px 1px white;
+      text-shadow: 0px 0px white;
     }
 
     .scroll {
       display: flex;
       gap: 5px;
       .scrollDown {
-        font: 400 20px "Montserrat";
+        font: 400 10px "Montserrat";
         color: white;
       }
       .scrollArrow {
         background-image: url(../../assets//img4.svg);
         background-size: cover;
         background-repeat: no-repeat;
-        width: 16px;
-        height: 25px;
+        width: 10px;
+        height: 15px;
         mix-blend-mode: lighten;
       }
     }
